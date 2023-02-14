@@ -1,1 +1,708 @@
+# exp-1
+
+
+Que1. Create a website for college profile using HTML and CSS
+(index.html)
+<!Doctype html>
+<html>
+<head>
+<style type="text/css">
+p
+{
+text-decoration : underline;
+font-style : bold;
+color :purple;
+font-size : 24px;
+margin-left : 130px;
+max-width : 1100px;
+}
+h1
+{
+text-align : center;
+}
+</style>
+<title>
+WELCOME
+</title>
+</head>
+<body bgcolor="cyan"><center>
+<h1>YashwantraoChavan College of Science, 
+VidyanagarKarad</h1> <h4>(Affiliated to Shivaji University , 
+Kolhapur)</h4> <br><br>
+<imgsrc ="C:/Users/Admin/Desktop/1.jpg" height="500px" width="1350px" alt="ERROR"
+align="center"></img>
+<br><br>
+<p><B><I>
+Founded by Late Hon .ShriYashwantraoChavan, Former Deputy Prime Minister of India, in 
+June 1958 as College of Science Karad with an objective of
+providing education to the students of karad as well as other parts of the district in science 
+field. Our college offers courses in Physics, Chemistry, Mathematics, Zoology,
+Botany, Statistics, Computer Science and Information Technology at undergraduate and postgraduate level as well. A 2 year PhD and M.Phil degrees for Microbiology and Analytical 
+Chemistry are available.
+Also a well constructed and designed library consisting of more then 13000 books is available.
+Unleash your dream and your career with us.
+</p>
+<nav style="font-size : 22px;">
+<a href="page53.html">Your 
+Feedback</a><br><br> <a 
+href="page56.html">Contact Us</a> </nav>
+</I></B>
+</center>
+<body>
+</html>
+(index1.html)
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.form {
+margin: 0 auto;
+width: 210px;
+}
+.form label{
+display: inline-block;
+text-align: right;
+float: left;
+}
+.form input{
+display: inline-block;
+text-align: left;
+float: right;
+}
+</style>
+<center><B><I><U>FEEDBACK FORM</U></I></B></center> 
+<title>FEEDBACK</title></head> <body><center>
+<form>
+<p>Enter Name <input type="text" name="name"></p> <p>Enter 
+E-mail <input type="email" name="email"></p> <p>Enter Mobile 
+no. <input type="number" name="number"></p> <p>Enter Age 
+<input type="number" name="age"></p>
+Feddback Message <br><textarea rows="5" cols="25" name="feedback"></textarea><br>
+<input type="submit" value="submit">
+</form>
+</center>
+</body>
+</html>
+(index2.html)
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+label
+{
+display: block;
+}
+label span
+{
+display: inline-block;
+text-align: right;
+width: 120px;
+}
+</style>
+<center><B><I><U>ADMISSION 
+FORM</U></I></B></center> <title>CONTACT 
+US!</title></head> <body><center><br>
+<form>
+<label>
+<span>Enter Name</span>
+<input type="text" name="name"/>
+</label><br>
+<label>
+<span>Enter E-mail</span>
+<input type="email" name="email"/>
+</label><br>
+<label>
+<span>Enter Mobile no.</span>
+<input type="number" name="number" />
+</label><br>
+<label>
+<span>Enter Age</span>
+<input type="number" name="number" />
+</label><br>
+<label>
+<span>Enter Your area of Interest</span>
+<input type="text" name="name" />
+</label><br>
+Address <br><textarea rows="5" cols="25" name="feedback"></textarea><br>
+<input type="submit" value="submit">
+</form>
+</center>
+</body>
+</html>
+OUTPUT
+(index.html)
+(index1.html)
+(index2.html)
+
+
+
+
+Que2.Create a webpage using HTML and CSS a web page as the 
+layout displayed below
+(index.html)
+<html>
+<head>
+<title> Tourist Place </title>
+<style>
+section{background-color:yellow;width:50%;height:50%; float:left;color:black;fontsize:30px;outline-style:solid;} aside{background-color:red;width:50%;height:50%;
+float:right;color:black;font-size:30px;outline-style:solid;}
+</style>
+</head>
+<body>
+<header style="background-color:lightblue;color:deeppink;text-align:center;
+height:30%;width:100%;font-size:50px;outline-style:solid">Tourist places
+</header>
+<header>
+<section>
+<b> City </b>
+<ol>
+<li> Pune </li>
+<li> Delhi </li>
+<li>Banglore m</li>
+<li> Hyderabad </li>
+</ol>
+</section>
+<aside>
+<p> Tourist places in Pune </p>
+<ul>
+<li>Shaniwarwada</li>
+<li>Sinhgad</li>
+<li>Kelkar Museum </li>
+</ul>
+</aside>
+</header>
+</body>
+</html>
+OUTPUT
+(index.html)
+
+
+
+
+Que3. Create a webpage using HTML and CSS
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sop4 </title>
+<style type="text/css">
+body
+{
+background-color: lightgrey
+}
+nav
+{
+background-color: Red;
+height: 30px;
+line-height: 20px;
+font-size: 18px;
+font-family: sans-serif;
+}
+article
+{
+background-color: white;
+margin: 5px;
+}
+aside
+{
+float:right;width:29%;
+background-color: grey;
+margin: 5px 0;
+}
+span
+{
+font-size: 40px;
+}
+a
+{
+color: #FFFFFF;
+padding: 20px;
+}
+section
+{
+float:left;
+width:70%;
+background-color: grey;
+Roll no. – 214 Div – B Batch – S7
+margin: 5px 0;
+}
+footer
+{
+background-color: blue;
+line-height: 20px;
+height: 26px;
+margin: 5px 0;
+color: white;
+padding:12px;
+font-size: 20px;
+font-family: sans-serif;
+clear: both;
+}
+center
+{
+margin: 5px ;
+background-color: grey;
+float:right;
+width:29%
+}
+h2,h3,h1,p
+{
+margin : 5px 0;
+padding :10px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>News</h1>
+<h3> Local and National News</h3>
+<nav>
+<a href="#">HOME</a>
+<a href="#">ARCHIVES</a>
+<a href="#">ABOUT</a>
+</nav>
+</header>
+<center>
+<h2>BE A NEWS REPORTER</h2>
+<p>If you see news happening then send us a Text.</p>
+</center>
+<section>
+<h2>Local News</h2>
+<article>
+<h3>Fire Fighters rescue man from building this is local 
+news</h3> <p>(reporter name, date)</p>
+<p>This is the fighter details. This is the story of fighter.
+Roll no. – Div – Batch –
+<br>
+This is the detail of rescue man. This is the story of how is
+rescued.
+</p>
+</article>
+<article>
+<h3>
+New Library to be built this is local news 2
+</h3>
+<p>(reporter name,date)</p>
+<p>This is the story text. This is the story text.
+<br>
+This is the story text. This is the story text.
+</p>
+</article>
+</section>
+<section>
+<ha>
+National News
+</h2>
+<article>
+<h3>Snow storm is making travel difficult</h3>
+<p>(reporter name, date)</p>
+<p>This is the story snow storm. This is the story distoiral of
+storm.
+<br>
+This is the story part continued . This is the story text continued.
+</p>
+</article>
+<article>
+<h3>Thousands are without power</h3>
+<p>(reporter name, date)</p>
+<br>
+<p>This is the story of not having power. This is the story 
+text continued.
+<br> This is the story bad effect. This is the story about destroyal
+of economy.
+</p>
+</article>
+</section>
+<footer>
+footer information</footer>
+</body>
+</html>
+OUTPUT
+(index.html)
+
+
+
+
+Que.4Create a web page for Audio a using HTML5
+(index.html)
+<html>
+<head>
+<title> Audio </title>
+</head>
+<body>
+<center>
+<B> Audio </B><br><br>
+<audio controls loop>
+<source src="C:/Users/Gurudatta/Desktop/pikachu.mp3" type="audio/mp3">
+</audio>
+</center>
+</body>
+</html>
+output:
+
+
+
+
+
+
+Que6 Create a webpage fornavigation on an image using client-side 
+image mapping using HTML5
+(index.html)
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h2><B><I><U>Image Maps</U></I></B></h2>
+<p>Click on the computer , phone or the cup of coffee to go to a new web page and 
+read more about the subject </p>
+<imgsrc="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" 
+height="379">
+<map name="workmap">
+<area shape="rect" coords="34,44,270,350" alt="Computer"
+href="computer.html">
+<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html">
+</map>
+</center>
+</body>
+</html>
+(computer.html)
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<imgsrc="C:/Users/Gurudatta/Desktop/Computer lab.png">
+<p>
+A computer is a machine that uses electronics to input, process, store, 
+and output data. </p>
+</center>
+</body>
+</html>
+(phone.html)
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<imgsrc="C:/Users/Gurudatta/Desktop/phone.jpg">
+<p>
+A mobile phone is a wireless handheld device that allows users to make and 
+receive calls. </p>
+Roll no. – 214 Div – B Batch – S7
+</center>
+</body>
+</html>
+(coffee.html)
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<imgsrc=" 
+C:/Users/Gurudatta/Desktop/coffee.jpg"> <p>
+Coffee is a brewed drink prepared from roasted coffee beans, the 
+seeds of berries from certain flowering plants in the Coffea species. </p>
+</center>
+</body>
+</html>
+Roll no. – 214 Div – B Batch – S7 
+
+OUTPUT
+(index.html)
+(computer.html)
+Roll no. – 214 Div – B Batch – S7
+(phone.html)
+(coffee.html)
+Roll no. – 214 Div – B Batch – S7
+
+
+
+
+
+
+
+Que.7.Create a webpage for changing background colour after every 1 seconds 
+by placing the pointer over the button and also for changing colour by 
+clicking on the button using JavaScript
+(index.html)
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body id="background">
+<center>
+<h1>The Background Color is being changed every 1 seconds</h1>
+<script>
+var i = 0;
+function change() {
+var doc = document.getElementById("background");
+var color = ["blue", "yellow", "red", "green","orange", "cyan", "indigo"]; 
+doc.style.backgroundColor = color[i];
+i = i+1;
+if(i==7){
+doc.style.backgroundColor = "white";
+}
+}
+functionclick_btn() {
+window.status = "Background Color is being changed every 1 seconds";
+}
+</script>
+<input type="button" name="b1" value="over here" onmouseover="setInterval(change, 1000)"> 
+<input type="submit" name="b2" value="click here" onclick="click_btn()"> </center>
+</body>
+</html>
+Roll no. – 214 Div – B Batch – S7
+(index1.html)
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body id="background" onload="setInterval(change, 1000)"> 
+<center>
+<h1>The Background Color is being changed every 1 seconds</h1>
+<script>
+var i = 0;
+function change() {
+var doc = document.getElementById("background");
+var color = ["blue", "yellow", "red", "green","orange", "cyan", "indigo"]; 
+doc.style.backgroundColor = color[i];
+i = i+1;
+if(i==7)
+{
+doc.style.backgroundColor = "white";
+alert("Page unload")
+}
+}
+</script>
+</center>
+</body>
+</html>
+Roll no. – 214 Div – B Batch – S7
+OUTPUT
+(index.html)
+(index1.html)
+Roll no. – 214 Div – B Batch – S7
+
+
+
+
+
+Que8.Create a program for given form validations. Make use of HTML5 
+properties to perform the form validations
+(index.html)
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+functionValidateEmail(inputText)
+{
+varmailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; 
+if(inputText.value.match(mailformat))
+{
+document.form1.text1.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email 
+address!"); document.form1.text1.focus(); return 
+false;
+}
+}
+</script>
+</head>
+<body>
+<center>
+<h1>Information Form</h1>
+<br>
+<form action="" method="" name="f1">
+<table>
+<tr>
+<td>Your Name</td>
+<td><input type="text" name="t1" required></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea rows="5" cols="20" name="a1" required placeholder="Enter
+Address"></textarea></td>
+</tr>
+<tr>
+<td>Contact</td>
+<td><input type="number" name="n1" maxlength="10" required></td>
+</tr>
+<tr>
+<td>E-mail</td>
+Roll no. – 214 Div – B Batch – S7
+<td><input type="email" name="e1" required></td>
+</tr>
+<tr>
+<td><input type="submit" name="submit" value="submit"
+onclick="ValidateEmail(document.f1.e1)"></td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
+OUTPUT
+(index.html)
+Roll no. – 214 Div – B Batch – S7
+
+
+
+
+
+
+Que9. Create a program to accept string from user and count number 
+of vowels in the given string using JavaScript
+(index.html)
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<center>
+<script type="text/javascript">
+functiongetVowels() {
+varvowelsCount = 0;
+varstr = document.getElementById("t1").value;
+var string = str.toString();
+for (var i = 0; i <= string.length - 1; i++) {
+if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || 
+string.charAt(i) == "o" || string.charAt(i) == "u") { vowelsCount += 1;
+}
+}
+//document.write("Total Vowels : "+vowelsCount); 
+document.getElementById('demo').innerHTML = "Total Vowels : "+vowelsCount; 
+returnvowelsCount;
+}
+</script>
+<tr>
+<td><input type="text" id="t1"></td>
+<td><input type="submit" name="submit" 
+onclick="getVowels()"></td> </tr>
+<p id="demo"></p>
+</center>
+</body>
+</html>
+OUTPUT
+(index.html)
+
+
+
+
+
+Que10Create a program to compute the average marks of students, accept 
+six subjects marks from user using JavaScript
+
+(index.html)
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input{text-align:center;}
+</style>
+<title>Enter Marks</title>
+<script type="text/javascript">
+functionsubmit_marks() {
+var sub1 = parseInt(document.getElementById('s1').value); 
+var sub2 = parseInt(document.getElementById('s2').value); 
+var sub3 = parseInt(document.getElementById('s3').value); 
+var sub4 = parseInt(document.getElementById('s4').value); 
+var sub5 = parseInt(document.getElementById('s5').value); 
+var sub6 = parseInt(document.getElementById('s6').value); 
+var total = sub1+sub2+sub3+sub4+sub5+sub6; var per = 
+total/6;
+var grade;
+if (per>=35 && per<=60) {
+grade = 'F';
+}
+else if(per>=61 && per<=70){
+grade = 'D';
+}
+else if(per>=71 && per<=80){
+grade = 'C';
+}
+else if(per>=81 && per<=90){
+grade = 'B';
+}
+else if(per>=91 && per<=100){
+grade = 'A';
+}
+else{
+grade = "Invalid or Failed";
+}
+document.getElementById("demo").innerHTML = "Your Total Marks :
+"+total+"<br>Your Percentage : "+per+"<br>Your Grade : "+grade;
+// document.write("Your Total Marks : "+total);
+// document.write("<br>Your Percentage : "+per);
+// document.write("<br>Your Grade : "+grade);
+}
+</script>
+</head>
+<body>
+<center>
+<h1>Enter Students Marks</h1>
+<p>English :</p>
+<input type="text" id="s1" text-align="center" placeholder="Enter English
+Marks">
+<p>Physics : </p>
+<input type="text" id="s2" placeholder="Enter Physics Marks"> 
+<p>Chemistry :</p>
+<input type="text" id="s3" placeholder="Enter Chemistry 
+Marks"> <p>Mathematics :</p>
+<input type="text" id="s4" placeholder="Enter Mathematics 
+Marks"> <p>Information Technology :</p>
+<input type="text" id="s5" placeholder="Enter Enter IT 
+Marks"> <p>Computer Science :</p>
+<input type="text" id="s6" placeholder="Enter Computer 
+Science Marks"><br><br>
+<input type="submit" onclick="submit_marks()"><br><br>
+<div id="demo"></div>
+</center>
+</body>
+</html>
+OUTPUT
+(index.html)
+
+
+
+
+
+
+
+Roll no. – 214 Div – B Batch – S7
+Q.12) Create a program to save marks of given subjects in an array for five 
+students and display the total marks and percentage of each students using 
+PHP
+(index.html)
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<center>
+<h2>Display Total Marks and Percentage of Students 
+</h2> <?php
+$subject_marks = array('English' =>95 ,'Hindi' =>96, 
+'Marathi'=>96,'Mathematics' =>97 ,'IT'=>100);
+$total_marks = $subject_marks['English'] +
+$subject_marks['Hindi'] + $subject_marks['Marathi'] +
+$subject_marks['Mathematics'] + $subject_marks['IT'];
+echo "English : ".$subject_marks['English'];
+echo "<br>Hindi : ".$subject_marks['Hindi'];
+echo "<br>Marathi : ".$subject_marks['Marathi'];
+echo "<br>Maths : ".$subject_marks['Mathematics'];
+echo "<br>IT : ".$subject_marks['IT'];
+echo "<br><br>Total : ".$total_marks;
+$percentage = $total_marks/5;
+echo "<br>Percentage : ".$percentage;
+?></center>
+</body>
+</html>
+OUTPUT
+(index.html)
 
